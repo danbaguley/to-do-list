@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <h1>To-Do List</h1>
-      <TodoForm />
+      <TodoForm addTodo={addTodo}/>
       <TodoList todos={todos} />
     </div>
   );
